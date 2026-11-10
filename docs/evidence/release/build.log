@@ -1,0 +1,4 @@
+g++ -O2 -std=c++17 -Wall -Wextra -Iinclude -c src/main.cpp -o build/main.o
+g++ -O2 -std=c++17 -Wall -Wextra -Iinclude -c src/ecc.cpp -o build/ecc.o
+g++ -O2 -std=c++17 -Wall -Wextra -Iinclude -c src/utils.cpp -o build/utils.o
+g++ -O2 -std=c++17 -Wall -Wextra -Iinclude build/main.o build/ecc.o build/utils.o -o bin/solution 

@@ -1,0 +1,51 @@
+{
+  "archive_sha256": "5b0710511496cda21ed507cffe05994c761828a8d0b804caa583fcb85e22634c",
+  "files": {
+    "110070016_final/110070016_report.pdf": {
+      "path": "docs/report/report.pdf",
+      "sha256": "26d56c5ffea4c0d011272cfd3507329018f16675cdde0103dacec522bfa275db"
+    },
+    "110070016_final/Makefile": {
+      "path": "Makefile",
+      "sha256": "ec21d30410e5e55f1cd36e6dd73ee7fa5884ea46f9b79b4e178eabffc970449a"
+    },
+    "110070016_final/include/ecc.h": {
+      "path": "include/ecc.h",
+      "sha256": "46842f813f25f2a23ad3b0a755e769c608ec17549350f33c68cbdbda6526b3a5"
+    },
+    "110070016_final/include/utils.h": {
+      "path": "include/utils.h",
+      "sha256": "fadaea6bdd133f42ff82181ae9f63c775708ed5c24d2b0033f53fa84883798b7"
+    },
+    "110070016_final/src/ecc.cpp": {
+      "path": "src/ecc.cpp",
+      "sha256": "d380ef1ddcf8b536da8f3661754ac239dc6aaa91455a199a33d18d84517161fc"
+    },
+    "110070016_final/src/main.cpp": {
+      "path": "src/main.cpp",
+      "sha256": "81f0aecb1ba9e1be5516b754f8553e31d6f1aef3b668c6049f7e6994fcafc5b0"
+    },
+    "110070016_final/src/utils.cpp": {
+      "path": "src/utils.cpp",
+      "sha256": "b890666da30b4ec57734c92023dec9387d38711d91af064c4c39589a90e4f773"
+    },
+    "2026_IIS5005_Hardware_Security_Final (1).pdf": {
+      "path": "docs/spec/assignment.pdf",
+      "sha256": "bde9fed8572d3634b5ebee518b30950dd36853677bb144351a4e3400cc67f3ad"
+    },
+    "IIS5008_Final_Project_Slide.pdf": {
+      "path": "docs/spec/project_slides.pdf",
+      "sha256": "0b2a12e80f262cb297ef467cd2db2012740aa4bf9d08fe5e9488d0e905eb2a36"
+    },
+    "Makefile_tutorial.pdf": {
+      "path": "docs/notes/Makefile_tutorial.pdf",
+      "sha256": "4a9d5633966d6628aafc76c51141e7fd721ec064358314172ae82afbd051a194"
+    }
+  },
+  "omitted_archive_files": {
+    "bin/solution": {
+      "sha256": "54e4dd1b2502b39ebb0b2714cff36a037c2b908ef848f7fee4072e71b807e969",
+      "reason": "Prebuilt executable omitted; rebuild from preserved C++ sources."
+    }
+  }
+}

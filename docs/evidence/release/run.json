@@ -1,0 +1,20 @@
+{
+  "date": "2026-11-11",
+  "date_timezone": "Asia/Taipei",
+  "command": "python3 scripts/run_tests.py",
+  "compiler": "g++ (GCC) 8.5.0 20210514 (Red Hat 8.5.0-28)",
+  "python": "3.14.7",
+  "machine": "x86_64",
+  "sources": {
+    "Makefile": "ec21d30410e5e55f1cd36e6dd73ee7fa5884ea46f9b79b4e178eabffc970449a",
+    "src/ecc.cpp": "d380ef1ddcf8b536da8f3661754ac239dc6aaa91455a199a33d18d84517161fc",
+    "src/main.cpp": "81f0aecb1ba9e1be5516b754f8553e31d6f1aef3b668c6049f7e6994fcafc5b0",
+    "src/utils.cpp": "b890666da30b4ec57734c92023dec9387d38711d91af064c4c39589a90e4f773",
+    "include/ecc.h": "46842f813f25f2a23ad3b0a755e769c608ec17549350f33c68cbdbda6526b3a5",
+    "include/utils.h": "fadaea6bdd133f42ff82181ae9f63c775708ed5c24d2b0033f53fa84883798b7",
+    "scripts/run_tests.py": "f01549007fe04c6cfe90fe1d92bc75b6ca61d88d72d395a259650f94d418206c"
+  },
+  "compiled_binary_sha256": "9be4bb3069bd8ccbbf6b431a6a6912aaabed36dcc21b77e6e17893c36c8018df",
+  "vectors_sha256": "ecdc291e1eeca15bbbee0c45c3119d305ffb4c463eda24f49f1db479e7bb344b",
+  "timing_context": "Sequential CLI calls including process startup, file I/O and Python wait polling; not kernel-only time"
+}

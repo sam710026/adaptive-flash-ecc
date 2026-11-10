@@ -1,0 +1,70 @@
+{
+  "scope": "Deterministic synthetic channels; official evaluator and public fixtures unavailable",
+  "trials": 353,
+  "by_channel": {
+    "burst_2bytes": {
+      "trials": 25,
+      "recovered": 20
+    },
+    "cluster_8of32": {
+      "trials": 25,
+      "recovered": 23
+    },
+    "none": {
+      "trials": 228,
+      "recovered": 228
+    },
+    "random_1pct": {
+      "trials": 25,
+      "recovered": 25
+    },
+    "reference_intensity_iid": {
+      "trials": 25,
+      "recovered": 24
+    },
+    "single_bit": {
+      "trials": 25,
+      "recovered": 25
+    }
+  },
+  "minimum_ratio": 1.5,
+  "maximum_ratio": 2.0,
+  "cap_checks_passed": 353,
+  "determinism_checks_passed": 228,
+  "build_seconds": 1.3687572535127401,
+  "encode_calls": 581,
+  "decode_calls": 353,
+  "median_encode_seconds": 0.004444367252290249,
+  "maximum_encode_seconds": 0.018667935393750668,
+  "median_decode_seconds": 0.016442356631159782,
+  "maximum_decode_seconds": 0.11538708116859198,
+  "age_values": [
+    1,
+    50,
+    51,
+    100,
+    101,
+    200,
+    201,
+    999,
+    1000
+  ],
+  "message_sizes": [
+    1,
+    2,
+    3,
+    7,
+    8,
+    16,
+    32,
+    64,
+    127,
+    128,
+    129,
+    255,
+    256,
+    257,
+    511,
+    512
+  ]
+}
